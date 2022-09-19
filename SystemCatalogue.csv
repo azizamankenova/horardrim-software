@@ -1,0 +1,11 @@
+rel_name,position,attr_name,type
+angel,0,name,str
+angel,1,alias,str
+angel,2,affiliation,str
+evil,0,name,str
+evil,1,type,str
+evil,2,alias,str
+evil,3,spell,str
+potion,0,id,int
+potion,1,type,str
+potion,2,size,str

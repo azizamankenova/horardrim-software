@@ -1,0 +1,19 @@
+1623001321,create type angel 3 1 name str alias str affiliation str,success
+1623001361,create type evil 4 1 name str type str alias str spell str,success
+1623001371,create record angel Tyrael ArchangelOfJustice HighHeavens,success
+1623001381,create record angel Itherael ArchangelOfFate HighHeavens,success
+1623001391,update record angel Tyrael Tyrael AspectOfWisdom Horadrim,success
+1623001401,list record angel,success
+1623001421,list record evil,failure
+1623001431,list type,success
+1651324754,create record evil Diablo PrimeEvil LordOfTerror redLightningHose,success
+1651324764,create type angel 3 1 name str alias str affiliation str,failure
+1651324784,delete record angel Itherael,success
+1651324794,create type potion 3 1 id int type str size str,success
+1651324824,create record potion 4 healing greater,success
+1651324834,create record potion 11 stamina standard,success
+1651324844,create record potion 6 mana minor,success
+1651324864,create record evil Belial LesserEvil LordOfLies flySwarms,success
+1651324874,filter record potion id>5,success
+1651324884,search record angel Tyrael,success
+1651324904,filter record evil name>Baal,success
